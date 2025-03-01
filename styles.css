@@ -52,3 +52,23 @@ input {
 .comfPassword:invalid {
     border: 3px solid red;
 }
+
+.email:valid {
+    border: 3px solid green;
+}
+
+.country:valid {
+    border: 3px solid green;
+}
+
+.password:valid {
+    border: 3px solid green;
+}
+
+.postalCode:valid {
+    border: 3px solid green;
+}
+
+.comfPassword:valid {
+    border: 3px solid green;
+}
