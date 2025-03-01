@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+}
+
+.formBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+}
+
+.red {
+    background-color: red !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p {
+    margin: 0;
+}
+
+label {
+    margin: 10px;
+    line-height: 15px;
+}
+
+input {
+    width: 30vw;
+    margin: 0;
+    height: 3vh;
+    font-size: 2vh;
+}
+
+.email:invalid {
+    border: 3px solid red;
+}
+
+.country:invalid {
+    border: 3px solid red;
+}
+
+.password:invalid {
+    border: 3px solid red;
+}
+
+.postalCode:invalid {
+    border: 3px solid red;
+}
+
+.comfPassword:invalid {
+    border: 3px solid red;
+}

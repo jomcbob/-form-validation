@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <form action="#" method="get" class="form" novalidate>
+        <div class="formBody">
+            <label>
+                <p>E-mail</p>
+                <input type="email" placeholder="Enter E-mail" class="email">
+                <p class="badEmail"></p>
+            </label>
+            <label>
+                <p>Country</p>
+                <input type="text" placeholder="Enter Country" class="country" minlength="3" maxlength="10">
+                <p class="badCountry"></p>
+            </label>
+            <label>
+                <p>Postal code</p>
+                <input class="postalCode" type="text" placeholder="Enter postal code">
+                <p class="badPostalCode"></p>
+            </label>
+            <label>
+                <p>Password</p>
+                <input type="text" placeholder="Enter password" class="password" minlength="8">
+                <p class="badPassword"></p>
+            </label>
+            <label>
+                <p>Password Confirmation</p>
+                <input type="text" placeholder="Password Confirmation" class="comfPassword" minlength="8"> 
+                <p class="badComfPassword"></p>
+            </label>
+            <button type="submit" class="submit">submit</button>
+        </div>
+    </form>
+</body>
+</html>
